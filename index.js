@@ -5,9 +5,9 @@ const express = require("express");
 let app = express()
 
 app.get("/", (req, res) => {
-    res.send("goodbye cruel world");
+    res.send("hello world");
 });
 
-app.listen(3000, function() {
+app.listen(8080, function() {
     console.log("listening");
 })
